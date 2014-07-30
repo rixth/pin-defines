@@ -1,0 +1,8 @@
+---
+  attiny25: attiny-25-45-85
+  attiny45: attiny-25-45-85
+  attiny85: attiny-25-45-85
+  atmega48: atmega-48-88-168-328
+  atmega88: atmega-48-88-168-328
+  atmega168: atmega-48-88-168-328
+  atmega328: atmega-48-88-168-328

@@ -1,0 +1,118 @@
+---
+  name: ATmega48A/PA/88A/PA/168A/PA/328/P
+  pins:
+    1:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 6)
+    2:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 0)
+    3:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 1)
+    4:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 2)
+    5:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 3)
+    6:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 4)
+    9:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 6)
+    10:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 7)
+    11:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 5)
+    12:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 6)
+    13:
+      ddr: DDRD
+      port: PORTD
+      pin: PIND
+      mask: (1 << 7)
+    14:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 0)
+    15:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 1)
+    16:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 2)
+    17:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 3)
+    18:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 4)
+    19:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 5)
+    23:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 0)
+    24:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 1)
+    25:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 2)
+    26:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 3)
+    27:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 4)
+    28:
+      ddr: DDRC
+      port: PORTC
+      pin: PINC
+      mask: (1 << 5)

@@ -1,0 +1,33 @@
+---
+  name: ATTiny 25/45/85
+  pins:
+    1:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 5)
+    2:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 3)
+    3:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 4)
+    5:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 0)
+    6:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 1)
+    7:
+      ddr: DDRB
+      port: PORTB
+      pin: PINB
+      mask: (1 << 2)

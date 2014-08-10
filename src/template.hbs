@@ -10,15 +10,15 @@
 #define {{name}}_PIN        {{pin}}
 #define {{name}}_MASK       {{{mask}}}
 
-#define {{name}}_ToOutput() {{name}}_DDR |= {{name}}_MASK
-#define {{name}}_ToInput()  {{name}}_DDR &= ~{{name}}_MASK
+#define {{name}}_ToOutput() ({{name}}_DDR |= {{name}}_MASK)
+#define {{name}}_ToInput()  ({{name}}_DDR &= ~{{name}}_MASK)
 
-#define {{name}}_High()     {{name}}_PORT |= {{name}}_MASK
-#define {{name}}_Low()      {{name}}_PORT &= ~{{name}}_MASK
+#define {{name}}_High()     ({{name}}_PORT |= {{name}}_MASK)
+#define {{name}}_Low()      ({{name}}_PORT &= ~{{name}}_MASK)
 
-#define {{name}}_Read()     {{name}}_PIN & {{name}}_MASK
-#define {{name}}_IsLow()    !{{name}}_Read()
-#define {{name}}_IsHigh()   {{name}}_Read()
+#define {{name}}_Read()     (({{name}}_PIN & {{name}}_MASK) != 0)
+#define {{name}}_IsLow()    (!{{name}}_Read())
+#define {{name}}_IsHigh()   ({{name}}_Read())
 
 #define {{name}}_LoopUntilHigh() do { } while ({{name}}_IsLow())
 #define {{name}}_LoopUntilLow()  do { } while ({{name}}_IsHigh())

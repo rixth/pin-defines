@@ -6,3 +6,4 @@
   atmega88: atmega-48-88-168-328
   atmega168: atmega-48-88-168-328
   atmega328: atmega-48-88-168-328
+  atmega328p: atmega-48-88-168-328
